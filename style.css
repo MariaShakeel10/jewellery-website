@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ...root... */
+:root {
+    --gold: rgb(252, 214, 0);
+}
+
+/* nav bar..................... */
+.golden {
+    font-family: cursive;
+    color: var(--gold) !important;
+    font-weight: bolder;
+    font-style: italic;
+}
+.gold-hover>li:hover {
+ color: var(--gold) !important;
+ text-decoration: underline;
+}
+.gold-hover>li>a:hover {
+    color: var(--gold) !important;
+   }
